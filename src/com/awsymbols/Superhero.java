@@ -64,5 +64,17 @@ public class Superhero extends Person
         System.out.println("Ha Ha Ha");
     }
 
+    public void create() { System.out.println("Life will prevail"); }
+
+    public static void main(String[] args) {
+
+        Superhero ty = new Superhero("Super Ty", "Pink", 'M', "Blue");
+
+        System.out.println(ty.name);
+        ty.contentedChuckle();
+        ty.create();
+
+    }
+
 
 }

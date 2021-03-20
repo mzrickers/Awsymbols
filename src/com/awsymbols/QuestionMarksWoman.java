@@ -1,14 +1,13 @@
 package com.awsymbols;
 
-public class SecondPeriod extends Superhero
-{
+public class QuestionMarksWoman extends Superhero {
 
     // fields
-    private String name = "Second Period";
-    private String primaryColor = "grey";
-    private String secondaryColor = "light grey";
-    private char sex = 'M';
-    private String logo = "SP";
+    private String name = "Question Marks Woman";
+    private String primaryColor = "blue";
+    private String secondaryColor = "white";
+    private char sex = 'F';
+    private String logo = "Arrow";
 
     // Getters
 
@@ -37,8 +36,8 @@ public class SecondPeriod extends Superhero
     }
 
     // Methods
-    public void shootLaser() {
-        System.out.println("Pew Pew Pew");
-    }
 
+    public void shootArrow() {
+        System.out.println("Twang");
+    }
 }
